@@ -12,9 +12,6 @@ class CustomPresence():
         self.presence = Presence(self.client_id)
         self.presence.set(self.presence_config["default_app"]["profiles"]["default"])
 
-    def check(self):
-        print(self.path)
-
     def get_app_list(self):
         arr = []
         for app in self.presence_config:
