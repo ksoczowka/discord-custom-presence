@@ -1,0 +1,38 @@
+{
+    "default_app":
+    {
+        "name": "Custom presence default",
+        "client_id": 1201234704762933278,
+        "profiles": 
+        {
+            "default": 
+            {
+                "state": "Customizing",
+                "details": "Try custom presence!",
+                "assets": 
+                {
+                    "large_image": "default1",
+                    "large_text": "Default Image"
+                }
+            }
+        } 
+    },
+    "template_app":
+    {
+        "name": "Template for editing",
+        "client_id": 1201234704762933278,
+        "profiles": 
+        {
+            "profile_name": 
+            {
+                "state": "Customizing",
+                "details": "Try custom presence!",
+                "assets": 
+                {
+                    "large_image": "default1",
+                    "large_text": "Default Image"
+                }
+            }
+        } 
+    }
+}
